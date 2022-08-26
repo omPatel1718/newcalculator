@@ -8,7 +8,7 @@
     tools:layout_editor_absoluteY="81dp">
 
     <Button
-        android:id="@+id/addition5"
+        android:id="@+id/powerOfE"
         android:layout_width="86dp"
         android:layout_height="47dp"
         android:layout_marginStart="7dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/addition4"
+        android:id="@+id/arccos"
         android:layout_width="86dp"
         android:layout_height="47dp"
         android:layout_marginStart="206dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/addition3"
+        android:id="@+id/arcsin"
         android:layout_width="86dp"
         android:layout_height="47dp"
         android:layout_marginStart="106dp"
@@ -60,9 +60,9 @@
         android:id="@+id/addition2"
         android:layout_width="86dp"
         android:layout_height="47dp"
-        android:layout_marginStart="314dp"
+        android:layout_marginStart="309dp"
         android:layout_marginTop="245dp"
-        android:layout_marginEnd="11dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="311dp"
         android:onClick="findArcTangent"
         android:text="tan-1 x/y"
@@ -92,10 +92,10 @@
     <Button
         android:id="@+id/cosine"
         android:layout_width="86dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="207dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="206dp"
         android:layout_marginTop="101dp"
-        android:layout_marginEnd="118dp"
+        android:layout_marginEnd="119dp"
         android:layout_marginBottom="454dp"
         android:onClick="findCosine"
         android:text="cos x"
@@ -106,8 +106,8 @@
 
     <Button
         android:id="@+id/tangent"
-        android:layout_width="91dp"
-        android:layout_height="50dp"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
         android:layout_marginStart="310dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="10dp"
@@ -116,6 +116,7 @@
         android:text="tan x"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -167,10 +168,10 @@
     <Button
         android:id="@+id/multiplication"
         android:layout_width="86dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="207dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="206dp"
         android:layout_marginTop="197dp"
-        android:layout_marginEnd="118dp"
+        android:layout_marginEnd="119dp"
         android:layout_marginBottom="360dp"
         android:onClick="findMulti"
         android:text="x*y"
@@ -181,8 +182,8 @@
 
     <Button
         android:id="@+id/division"
-        android:layout_width="91dp"
-        android:layout_height="49dp"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
         android:layout_marginStart="310dp"
         android:layout_marginTop="197dp"
         android:layout_marginEnd="10dp"
@@ -191,6 +192,7 @@
         android:text="x/y"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -230,12 +232,12 @@
 
     <Button
         android:id="@+id/mod"
-        android:layout_width="90dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="310dp"
-        android:layout_marginTop="149dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="406dp"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="405dp"
         android:onClick="findMod"
         android:text="x%y"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -245,11 +247,11 @@
 
     <Button
         android:id="@+id/power"
-        android:layout_width="89dp"
-        android:layout_height="48dp"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
         android:layout_marginStart="206dp"
         android:layout_marginTop="149dp"
-        android:layout_marginEnd="116dp"
+        android:layout_marginEnd="119dp"
         android:layout_marginBottom="406dp"
         android:onClick="findPower"
         android:text="x^y"
