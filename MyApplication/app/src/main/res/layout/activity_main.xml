@@ -8,6 +8,72 @@
     tools:layout_editor_absoluteY="81dp">
 
     <Button
+        android:id="@+id/addition5"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="311dp"
+        android:onClick="findEPower"
+        android:text="e^x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addition4"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="311dp"
+        android:onClick="findArcCosine"
+        android:text="cos-1 x/y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addition3"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="311dp"
+        android:onClick="findArcSine"
+        android:text="sin-1 x/y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addition2"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="311dp"
+        android:onClick="findArcTangent"
+        android:text="tan-1 x/y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
         android:id="@+id/sine"
         android:layout_width="86dp"
         android:layout_height="48dp"
@@ -17,6 +83,7 @@
         android:layout_marginBottom="454dp"
         android:onClick="findSine"
         android:text="sin x"
+        android:theme=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +127,7 @@
         android:layout_marginTop="349dp"
         android:layout_marginEnd="122dp"
         android:layout_marginBottom="235dp"
-        android:text="and your result will be here"
+        android:text="And your result will be here"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -99,12 +166,12 @@
 
     <Button
         android:id="@+id/multiplication"
-        android:layout_width="91dp"
-        android:layout_height="47dp"
-        android:layout_marginStart="208dp"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="207dp"
         android:layout_marginTop="197dp"
-        android:layout_marginEnd="115dp"
-        android:layout_marginBottom="358dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="360dp"
         android:onClick="findMulti"
         android:text="x*y"
         app:layout_constraintBottom_toBottomOf="parent"
